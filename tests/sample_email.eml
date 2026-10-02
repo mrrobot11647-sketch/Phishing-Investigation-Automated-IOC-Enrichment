@@ -1,0 +1,23 @@
+From: attacker@example.com
+To: victim@victim.com
+Date: Wed, 2 Oct 2026 10:00:00 +0000
+Subject: Urgent: Verify Your Account
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+
+Please verify your account by clicking the link below:
+http://malicious-site.com/login
+
+Your account may be compromised. Also, open the attached document.
+
+--
+Best regards,
+Account Security Team
+
+--Boundary-00_malicious_attachment
+Content-Type: application/octet-stream; name="invoice.pdf"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="invoice.pdf"
+
+JVBERi0xLjQKJcfsj6IKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwovUGFnZXMgMiAwIFIKPj4KZW5kb2Jq
+CjIgMCBvYmoKPDwKL1R5cGUvUGFnZXMKL0NvdW50IDEKLaBhrell
